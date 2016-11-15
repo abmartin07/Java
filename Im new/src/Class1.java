@@ -12,12 +12,7 @@ public class Class1 {
 	float j= calc.getDiv(987, 2);
 	int k = calc.getSum(98, 85);
 	int s = calc.getSub(987,25);
-	
 	System.out.println(u+j-k+s);
 	
-	
-	
-	
 	}
-	
 }
