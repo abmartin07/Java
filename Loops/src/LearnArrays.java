@@ -3,6 +3,7 @@ public class LearnArrays {
 
 	public static void main(String[] args) {
 	
+	
 	String a[]={"bony","tony","fony","suny","buny"};
 	int[] i = new int[10];
 	i[0]=1;
@@ -15,21 +16,19 @@ public class LearnArrays {
 	i[7]=2;
 	i[8]=3;
 	i[9]=7;
-		//System.out.println(a.length);
-	//for(int c=0; c<a.length;c++){
-		//System.out.println(a[c]);
-	//}
-	//for(int b=0; b<i.length; b++){
-		//System.out.print(Arrays.toString(a));
-		
-	
+			//System.out.println(a.length);
+			//for(int c=0; c<a.length;c++){
+			//System.out.println(a[c]);
+			//}
+			//for(int b=0; b<i.length; b++){
+	System.out.print(Arrays.toString(a));
 	System.out.print(Arrays.toString(i));
+	stArray();
 	}
-	//System.out.println(a.length);
-}
-//}
+			//System.out.println(a.length);
 
-/*public static void main(String[] args) {
+
+public static void stArray(){
     int[] intArray = new int[] {1, 2, 3, 4, 5};
     String[] strArray = new String[] {"John", "Mary", "Bob"};
 
@@ -41,5 +40,4 @@ public class LearnArrays {
     Arrays.stream(intArray).forEach(System.out::println);
     Arrays.stream(strArray).forEach(System.out::println);
 }
-}*/
-
+}
