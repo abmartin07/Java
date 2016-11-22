@@ -16,19 +16,26 @@ public class LearnArrays {
 	i[7]=2;
 	i[8]=3;
 	i[9]=7;
-			//System.out.println(a.length);
-			//for(int c=0; c<a.length;c++){
-			//System.out.println(a[c]);
-			//}
+			System.out.println(a.length);
+			for(int c=0; c<a.length;c++){
+			System.out.println(a[c]);
+			}
 			//for(int b=0; b<i.length; b++){
-	System.out.print(Arrays.toString(a));
-	System.out.print(Arrays.toString(i));
-	stArray();
+		try{
+		
+	System.out.print(a[10]);
+	
+		}catch (ArrayIndexOutOfBoundsException e){}
+
 	}
+}
+	//System.out.println(Arrays.toString(i));
+	//stArray();
+	//}
 			//System.out.println(a.length);
 
 
-public static void stArray(){
+/*public static void stArray(){
     int[] intArray = new int[] {1, 2, 3, 4, 5};
     String[] strArray = new String[] {"John", "Mary", "Bob"};
 
@@ -40,4 +47,4 @@ public static void stArray(){
     Arrays.stream(intArray).forEach(System.out::println);
     Arrays.stream(strArray).forEach(System.out::println);
 }
-}
+}*/

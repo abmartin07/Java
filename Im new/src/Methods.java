@@ -19,11 +19,27 @@ public class Methods {
 		return a+b;
 	}
 	
+	public class Inheritanced extends ClassExtensionInheritance{
+		int x=9;
+		int y=5;
+		public void inherits(){
+			int z=x+y;
+			yo();
+			System.out.println(z);
+			
+		}
+		
+	}
+	
 	public static void main(String[] args) {
+		
+		Inheritanced.main(args);
+		
 		System.out.println(addnums(9,10)+" : Called with return and parameters");
 		System.out.println(nums()+" : Called with a return and no parameters");
 		Mult(5,6);
 		name();
+		
 		
 	
 	}
