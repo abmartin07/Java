@@ -1,6 +1,6 @@
 package TestPack;
 
-public class TestClass {
+ public class TestClass {
 	
 		private static int x;//private variables
 		private static int y;
@@ -28,7 +28,7 @@ public class TestClass {
 			this.y = y;
 		}
 			//calling method with void and no return
-		public static void name(){
+		public void name(){
 		System.out.println("name() : Called without a return");
 		}
 		
@@ -51,6 +51,15 @@ public class TestClass {
 			System.out.println(c);
 		}
 		
+			//Method Overriding
+		static class Animal extends TestClass{
+			public void name(){
+				super.name();
+				System.out.println("Method Overrided");
+			}
+			
+		}
+		
 		public static void main(String[] args) {
 			TestClass t = new TestClass(); //creating object
 			System.out.println("Default value of x is "+x);
@@ -63,10 +72,13 @@ public class TestClass {
 				//Calling the methods
 			System.out.println(t.addnums(5, 5));
 			t.Mult(7, 9);
-			t.name();
-				//Method Overloading
-			t.met('c');
-			t.met(5);
+			t.name();				
 			
+				//Method Overriding
+			TestClass t3 = new Animal();
+			t3.name(); //prints the output from the extended animal class which overrides the original TestClass
+		
 		}
 	}
+ 
+ 	
