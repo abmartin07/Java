@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Im new/src"/>
+	<classpathentry kind="src" path="Java_mod_2/src"/>
+	<classpathentry kind="src" path="Loops/src"/>
+	<classpathentry kind="src" path="Oops/src"/>
+	<classpathentry kind="src" path="SeleniumIntro/src"/>
+	<classpathentry kind="src" path="Test Week/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Im new/bin"/>
+</classpath>
