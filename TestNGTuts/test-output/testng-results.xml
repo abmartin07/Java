@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="128" started-at="2017-02-25T00:25:31Z" finished-at="2017-02-25T00:25:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="128" started-at="2017-02-25T00:25:31Z" finished-at="2017-02-25T00:25:31Z">
+      <class name="tutorial.DataProvided">
+        <test-method status="FAIL" signature="parametere(java.lang.String)[pri:0, instance:tutorial.DataProvided@573f2bb1]" name="parametere" duration-ms="0" started-at="2017-02-24T18:25:31Z" finished-at="2017-02-24T18:25:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'userid' is required by @Test on method parametere but has not been marked @Optional or defined
+in C:\Users\Bonny\AppData\Local\Temp\testng-eclipse--1634275731\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'userid' is required by @Test on method parametere but has not been marked @Optional or defined
+in C:\Users\Bonny\AppData\Local\Temp\testng-eclipse--1634275731\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametere -->
+        <test-method status="PASS" signature="userid(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tutorial.DataProvided@573f2bb1]" name="userid" duration-ms="7" started-at="2017-02-24T18:25:31Z" data-provider="getdata" finished-at="2017-02-24T18:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[How]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[are you]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userid -->
+        <test-method status="PASS" signature="userid(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tutorial.DataProvided@573f2bb1]" name="userid" duration-ms="3" started-at="2017-02-24T18:25:31Z" data-provider="getdata" finished-at="2017-02-24T18:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1Hey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1How]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1are you]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userid -->
+        <test-method status="PASS" signature="userid(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tutorial.DataProvided@573f2bb1]" name="userid" duration-ms="2" started-at="2017-02-24T18:25:31Z" data-provider="getdata" finished-at="2017-02-24T18:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2Hey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2How]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2are you]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userid -->
+      </class> <!-- tutorial.DataProvided -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

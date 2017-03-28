@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Testing testNg"> <!-- Give a suite name -->
+<test name = "Validation Test"> <!-- Then give a test name for all your test cases -->
+<parameter
+name ="userid" value ="pasword"/>
+<classes>
+<class name = "tutorial.Testng"/> <!-- then provide the class you want to test using package.class -->
+<class name = "tutorial.DataProvided"/>
+</classes>
+
+</test>
+
+
+</suite>
